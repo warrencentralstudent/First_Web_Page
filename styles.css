@@ -1,11 +1,3 @@
-h1 {
-    color: blue;
-}
-
-h2 {
-    color: violet;
-}
-
 p {
     color: red;
 }
@@ -17,3 +9,37 @@ li {
 td {
     color: hotpink;
 }
+
+h1 {
+    color: red;
+    font-size: 3.5em;
+    font-family: Georgia, sans-serif;
+}
+
+h2 {
+    color: blue;
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+p {
+    color: green;
+    font-size: 1.2em; /* 1 em = 16 px */
+    line-height: 160%;
+
+}
+
+li {
+    color: orange;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+p.main-text{
+    color:darkviolet;
+}
+
+#schedule{
+    background-color: black;
+}
+
